@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO with Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer="defer" src="main.js"></script>
+</head>
+<body>
+    <div class="todo-container">
+        <header>
+            <h1>To Do List</h1>
+        </header>
+            
+        <form action="todo-form">
+            <input type="text" id="todo-input" class="todo-input" placeholder="Add a to do">
+            <button type="submit" class="add-btn"><i class="fa-solid fa-plus"></i></button>
+            <div class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncomplited">Uncomplited</option>
+                </select>
+            </div>
+        </form>
+
+        <ul class="todo-list" >
+
+
+        </ul>
+    </div>
+</body>
+</html>
